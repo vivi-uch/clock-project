@@ -1,7 +1,8 @@
 import CardSet from "./components/cards/CardSet";
 import Hero from "./components/Hero";
 import Listings from "./components/Lists/Listings";
-import Pricing from "./components/Price";
+import Pricing from "./components/price/Pricing";
+import Bottom from "./components/Bottom";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <CardSet />
       <Listings />
       <Pricing />
+      <Bottom />
     </div>
   );
 };
