@@ -4,12 +4,12 @@ import Hero from "./components/Hero";
 import Listings from "./components/Lists/Listings";
 import Pricing from "./components/price/Pricing";
 import Bottom from "./components/Bottom";
-import TimerPage from "./components/TimerPage";
-import PlannerPage from "./components/PlannerPage";
-import TimezonePage from "./components/TimezonePage";
-import WorldClockPage from "./components/WorldClockPage";
-import PomodoroPage from "./components/PomodoroPage";
-import StopwatchPage from "./components/StopwatchPage";
+import TimerPage from "./components/Routes/TimerPage";
+import PlannerPage from "./components/Routes/PlannerPage";
+import TimezonePage from "./components/Routes/TimezonePage";
+import WorldClockPage from "./components/Routes/WorldClockPage";
+import PomodoroPage from "./components/Routes/PomodoroPage";
+import StopwatchPage from "./components/Routes/StopwatchPage";
 
 import { useState } from "react";
 
