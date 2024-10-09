@@ -61,16 +61,19 @@ function CardSet() {
       className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7"
     >
       {cardData.map((card) => (
-        // <Link to={card.link} key={card.title}>
-        <Card
-          icon={
-            <FontAwesomeIcon icon={card.icon} className="text-white text-4xl" />
-          }
-          title={card.title}
-          text={card.text}
-          key={card.title}
-        />
-        // </Link>
+        <Link to={card.link} key={card.title}>
+          <Card
+            icon={
+              <FontAwesomeIcon
+                icon={card.icon}
+                className="text-white text-4xl"
+              />
+            }
+            title={card.title}
+            text={card.text}
+            key={card.title}
+          />
+        </Link>
       ))}
     </motion.div>
   );
