@@ -14,7 +14,17 @@ function Hero() {
       }}
       className="flex flex-col gap-5 text-center text-white"
     >
-      <FontAwesomeIcon icon={faClock} className="text-gray-600 text-6xl" />
+      <motion.div
+        animate={{
+          rotate: "360deg",
+        }}
+        transition={{
+          repeat: Infinity,
+          duration: 2,
+        }}
+      >
+        <FontAwesomeIcon icon={faClock} className="text-gray-600 text-6xl" />
+      </motion.div>
       <p className=" text-4xl font-bold">ClockWise 🔁</p>
       <p className="">
         Time related tools to help you stay productive and organized

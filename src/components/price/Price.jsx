@@ -4,7 +4,7 @@ import Button from "../Button";
 
 const Price = ({ heading, oldprice, Newprice, pointList }) => {
   return (
-    <div className="flex flex-col gap-4 rounded-lg text-center text-white border-2 border-gray-500 p-4">
+    <div className="flex flex-col gap-4 rounded-lg text-center text-white border-2 border-gray-500 p-4 hover:scale-105">
       <div className="flex justify-between items-center">
         <h2>{heading}</h2>
         <Button name="Sign Up" />
